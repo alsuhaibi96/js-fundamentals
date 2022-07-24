@@ -15,6 +15,9 @@ btn.addEventListener('click', (e) => {
     e.preventDefault()
         // console.log(e.target.className)
     document.querySelector('#my-form').style.background = '#ccc'
+    document.querySelector('body').classList.add('bg-dark')
+    itemes.lastElementChild.innerHTML = '<h1>hello</h1>';
+    itemes.lastElementChild.style.color = '#ffff'
 })
 
 // console.log(ul)
